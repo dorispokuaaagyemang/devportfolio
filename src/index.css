@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Tailwind v4 uses prefers-color-scheme for `dark:` by default.
+   This line switches it to class-based dark mode, controlled by
+   App.jsx toggling the `dark` class on <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-bg: #0f172a;
+  --color-brand-card: #1e293b;
+  --color-brand-violet: #6366f1;
+  --color-brand-purple: #a788fa;
+  --color-brand-green: #10b981;
+  --color-brand-light: #f8fafc;
+}
+
+body {
+  font-family: var(--font-sans);
+}
