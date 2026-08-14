@@ -10,7 +10,7 @@ export default function Experience() {
         <ol className="space-y-8 border-l border-slate-200 pl-6 dark:border-slate-800">
           {EXPERIENCE.map((item) => (
             <li key={item.role} className="relative">
-              <span className="absolute -left-[29px] top-1 h-3 w-3 rounded-full bg-violet-500 ring-4 ring-white dark:ring-slate-900" />
+              <span className="absolute -left-7.25 top-1 h-3 w-3 rounded-full bg-violet-500 ring-4 ring-white dark:ring-slate-900" />
               <h3 className="text-sm font-semibold text-slate-900 dark:text-white">
                 {item.role}
               </h3>

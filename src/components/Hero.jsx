@@ -33,8 +33,8 @@ export default function Hero() {
         </div>
 
         <div className="relative mx-auto flex h-80 w-80 items-center justify-center sm:h-96 sm:w-96">
-          <div className="absolute inset-0 rounded-[2.5rem] bg-gradient-to-br from-violet-600/30 via-fuchsia-500/15 to-transparent blur-2xl" />
-          <div className="relative flex h-full w-full items-end justify-center overflow-hidden rounded-[2.5rem] border border-slate-200 bg-gradient-to-b from-slate-100 to-slate-200 dark:border-slate-800 dark:from-slate-800 dark:to-slate-900">
+          <div className="absolute inset-0 rounded-[2.5rem] bg-linear-to-br from-violet-600/30 via-fuchsia-500/15 to-transparent blur-2xl" />
+          <div className="relative flex h-full w-full items-end justify-center overflow-hidden rounded-[2.5rem] border border-slate-200 bg-linear-to-b from-slate-100 to-slate-200 dark:border-slate-800 dark:from-slate-800 dark:to-slate-900">
             <span className="pb-6 text-7xl">🧑🏾‍💻</span>
           </div>
           <div className="absolute -left-6 top-10 flex h-14 w-14 items-center justify-center rounded-2xl border border-slate-200 bg-white text-sky-500 shadow-lg dark:border-slate-700 dark:bg-slate-900 dark:text-sky-400">
