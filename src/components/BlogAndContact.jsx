@@ -54,7 +54,7 @@ export default function BlogAndContact() {
           <ul className="mt-5 space-y-5">
             {BLOG_POSTS.map((post) => (
               <li key={post.title} className="flex gap-3">
-                <div className="h-14 w-16 shrink-0 rounded-lg bg-gradient-to-br from-slate-200 to-slate-300 dark:from-slate-700 dark:to-slate-800" />
+                <div className="h-14 w-16 shrink-0 rounded-lg bg-linear-to-br from-slate-200 to-slate-300 dark:from-slate-700 dark:to-slate-800" />
                 <div>
                   <h4 className="text-xs font-semibold text-slate-900 dark:text-white">{post.title}</h4>
                   <p className="text-[10px] text-violet-500 dark:text-violet-400">{post.date}</p>

@@ -104,24 +104,24 @@ export const PROJECT_FILTERS = ["All", "Web Apps", "E-commerce", "Dashboard", "F
 
 export const PROJECTS = [
   {
-    title: "Task Manager Pro",
+    title: "Student Result Management System",
     tag: "Fullstack",
-    desc: "A fullstack task management app with auth, boards and real-time updates.",
-    stack: ["Next.js", "TypeScript", "PostgreSQL"],
+    desc: "A fullStack Management System that keeps track of student Results",
+    stack: ["Tkinter", "Dango", "PostgreSQL"],
     gradient: "from-indigo-500 via-purple-500 to-fuchsia-500",
   },
   {
-    title: "E-Commerce Store",
+    title: "Furniuxe",
     tag: "Fullstack",
-    desc: "Modern e-commerce platform with cart, payments and admin dashboard.",
+    desc: "Modern Online Furniture Site",
     stack: ["React", "Node.js", "MongoDB"],
     gradient: "from-slate-700 via-slate-600 to-slate-800",
   },
   {
-    title: "Blogify",
-    tag: "Fullstack",
-    desc: "A blogging platform with rich text editor, auth and comments.",
-    stack: ["Next.js", "MongoDB", "Tailwind CSS"],
+    title: "Tap Manager",
+    tag: "FrontEnd",
+    desc: "A browser Extension built with Plasmo",
+    stack: ["React", "Plasmo", "Tailwind CSS"],
     gradient: "from-slate-800 via-indigo-900 to-slate-900",
   },
 ];

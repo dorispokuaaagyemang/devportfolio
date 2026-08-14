@@ -36,7 +36,7 @@ export default function Projects() {
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((p) => (
           <Card key={p.title} className="overflow-hidden">
-            <div className={`flex h-40 items-center justify-center bg-gradient-to-br ${p.gradient} text-white/70`}>
+            <div className={`flex h-40 items-center justify-center bg-linear-to-br ${p.gradient} text-white/70`}>
               <ExternalLink size={22} />
             </div>
             <div className="p-5">

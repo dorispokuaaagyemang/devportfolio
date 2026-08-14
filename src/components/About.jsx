@@ -30,7 +30,7 @@ export default function About() {
             <PrimaryButton icon={Download}>Download CV</PrimaryButton>
           </div>
         </div>
-        <div className="relative mx-auto aspect-[4/3] w-full max-w-md overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-slate-100 to-slate-200 dark:border-slate-800 dark:from-slate-800 dark:to-slate-900">
+        <div className="relative mx-auto aspect-4/3 w-full max-w-md overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-slate-100 to-slate-200 dark:border-slate-800 dark:from-slate-800 dark:to-slate-900">
           <div className="flex h-full w-full items-center justify-center text-6xl">
             🧑🏾‍💻
           </div>
