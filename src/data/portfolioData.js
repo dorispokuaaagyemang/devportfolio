@@ -100,12 +100,13 @@ export const EXPERIENCE = [
   },
 ];
 
-export const PROJECT_FILTERS = ["All", "Web Apps", "E-commerce", "Dashboard", "Fullstack"];
+export const PROJECT_FILTERS = ["All", "Web Apps", "Extension", "Dashboard", "Fullstack"];
 
 export const PROJECTS = [
   {
     title: "Student Result Management System",
     tag: "Fullstack",
+    image: "/public/srms.jpg",
     desc: "A fullStack Management System that keeps track of student Results",
     stack: ["Tkinter", "Dango", "PostgreSQL"],
     gradient: "from-indigo-500 via-purple-500 to-fuchsia-500",
@@ -113,6 +114,7 @@ export const PROJECTS = [
   {
     title: "Furniuxe",
     tag: "Fullstack",
+    image: "/public/furniuxe.jpeg",
     desc: "Modern Online Furniture Site",
     stack: ["React", "Node.js", "MongoDB"],
     gradient: "from-slate-700 via-slate-600 to-slate-800",
@@ -120,6 +122,7 @@ export const PROJECTS = [
   {
     title: "Tap Manager",
     tag: "FrontEnd",
+    image: "/public/tabextension.png",
     desc: "A browser Extension built with Plasmo",
     stack: ["React", "Plasmo", "Tailwind CSS"],
     gradient: "from-slate-800 via-indigo-900 to-slate-900",

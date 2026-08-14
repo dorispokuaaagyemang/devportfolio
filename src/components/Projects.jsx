@@ -37,7 +37,8 @@ export default function Projects() {
         {visible.map((p) => (
           <Card key={p.title} className="overflow-hidden">
             <div className={`flex h-40 items-center justify-center bg-linear-to-br ${p.gradient} text-white/70`}>
-              <ExternalLink size={22} />
+              {/* <ExternalLink size={22} /> */}
+              <img src={p.image} />
             </div>
             <div className="p-5">
               <div className="flex items-center justify-between">

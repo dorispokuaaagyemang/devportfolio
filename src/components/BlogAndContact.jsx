@@ -29,15 +29,15 @@ export default function BlogAndContact() {
           <div className="mt-6 space-y-3 text-xs text-slate-500 dark:text-slate-400">
             <div className="flex items-center gap-2">
               <Mail size={14} className="text-violet-500 dark:text-violet-400" />
-              youremail@email.com
+              pokuaaagyemangdoris@gmail.com
             </div>
             <div className="flex items-center gap-2">
               <Phone size={14} className="text-violet-500 dark:text-violet-400" />
-              +233 24 123 4567
+              <a href="tel:00233257624221">Call me for Bussiness</a>
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={14} className="text-violet-500 dark:text-violet-400" />
-              Accra, Ghana
+        Kumasi, Ghana
             </div>
           </div>
         </Card>
@@ -83,10 +83,10 @@ export default function BlogAndContact() {
             </PrimaryButton>
           </form>
           <div className="mt-6 flex gap-3">
-            <SocialIcon icon={Github} label="GitHub" />
-            <SocialIcon icon={Linkedin} label="LinkedIn" />
-            <SocialIcon icon={Twitter} label="Twitter" />
-            <SocialIcon icon={Mail} label="Email" />
+            <SocialIcon icon={Github} label="GitHub" href="https://github.com/dorispokuaaagyemang" />
+            <SocialIcon icon={Linkedin} label="LinkedIn" href="https://www.linkedin.com/in/doris-pokuaa-agyemang-3b6946429/"  />
+            <SocialIcon icon={Twitter} label="Twitter" href="https://x.com/DorisPokua7yvw" />
+            <SocialIcon icon={Mail} label="Email" href="mailto:dorispokuaaagyemang@gmail.com" />
           </div>
         </Card>
       </div>
